@@ -23,7 +23,7 @@ ul, h1, h2, h3, h4, p, figure {
 body {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 16px;
-  background-color: #ddd;
+  background-color: #ffffff;
   overflow-x: hidden;
 }
 
@@ -45,7 +45,7 @@ p {
     line-height: 1.9;
 }
 
-.tm-color-primary { color: #09F; }
+.tm-color-primary { color: #ff120f; }
 
 .navbar-toggler {
     padding: 10px 15px;
@@ -85,12 +85,13 @@ p {
 .tm-site-name {
     display: inline-block;
     text-transform: uppercase;
-    font-size: 2rem;
-    color: #999;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ff0000;
 }
 
 .tm-main-bg {
-    background-image: url(../img/new-vision-01.jpg);
+    background-image: url(../img/clg-bg.jpg);
     background-repeat: no-repeat;
     background-position: 45% top;
     height: 800px;
@@ -147,7 +148,7 @@ nav > ul > li { list-style: none; }
 .nav-item .tm-nav-link:hover,
 .nav-item.active .tm-nav-link {
     color: #000;
-    border-bottom: 5px solid #09F;
+    border-bottom: 5px solid #ff120f;
     border-left: none;
 }
 
@@ -167,7 +168,7 @@ nav > ul > li { list-style: none; }
     
     .nav-item .tm-nav-link:hover, 
     .nav-item.active .tm-nav-link {
-        border-left: 5px solid #09F;
+        border-left: 5px solid #ff120f;
         border-bottom: none;
     }
 }
@@ -234,7 +235,7 @@ nav > ul > li { list-style: none; }
 
 .tm-section-header {
     display: inline-block;
-    background-color: #c99;
+    background-color: #ff120f;
     color: white;
     padding: 30px 90px 30px 30px;
     margin: 0;
@@ -262,8 +263,8 @@ nav > ul > li { list-style: none; }
 
 .tm-welcome-row-2 { margin-bottom: 45px; }
 
-.tm-article-link:hover .tm-article-title { color: #09F; }
-.tm-hover-color { color: #09F; }
+.tm-article-link:hover .tm-article-title { color: #ff120f; }
+.tm-hover-color { color: #ff120f; }
 
 .tm-article-title {
     margin-bottom: 30px;
@@ -315,7 +316,7 @@ nav > ul > li { list-style: none; }
 }
 
 .tm-article-icon {
-    color: #C99;
+    color: #ff120f;
     margin-top: 20px;
     margin-bottom: 40px;
 }
@@ -334,14 +335,14 @@ nav > ul > li { list-style: none; }
 .tm-article-link { align-self: flex-end; }
 
 .tm-btn {
-    background-color: #C99;
+    background-color: #ff120f;
     color: white;
     padding: 10px 25px;
 }
 
 .tm-btn:hover,
 .tm-btn:focus {
-    background-color: #924141;
+    background-color: #ff121f;
     text-decoration: none;
     color: white;
 }
@@ -381,7 +382,7 @@ nav > ul > li { list-style: none; }
 .slick-dots li button:hover:before, 
 .slick-dots li button:focus:before,
 .slick-dots li.slick-active button:before {
-    color: #C99;
+    color: #ff120f;
 }
 
 footer {
@@ -394,7 +395,7 @@ footer {
 footer a { color: #666; }
 
 footer a:hover {
-    color: #09F;
+    color: #ff120f;
     text-decoration: none;
 }
 
@@ -406,7 +407,7 @@ footer a:hover {
   overflow: hidden;
   margin-left: 20px;
   margin-right: 20px;
-  background: #3085a3;
+  background: #ff120f;
   text-align: center;
   cursor: pointer;
 }
@@ -481,7 +482,7 @@ footer a:hover {
 /*---------------*/
 
 figure.effect-honey {
-  background: #4a3753;
+  background: #ff120f;
   max-width: 240px;
 }
 
@@ -499,7 +500,7 @@ figure.effect-honey figcaption::before {
   left: 0;
   width: 100%;
   height: 10px;
-  background: #3496d8;
+  background: #ff120f;
   content: "";
   -webkit-transform: translate3d(0, 10px, 0);
   transform: translate3d(0, 10px, 0);
@@ -543,7 +544,7 @@ figure.effect-honey:hover h4 i {
 .tm-about { max-width: 975px; }
 
 .tm-about-icon {
-    color: #09F;
+    color: #ff120f;
     min-width: 235px;
     display: flex;
     justify-content: center;
@@ -575,7 +576,7 @@ figure.effect-zoe figcaption {
 	padding: 15px 15px 0;
 	height: 5em;
 	background: rgba(255,255,255,0.7);
-	color: #3c4a50;
+	color: #ff120f;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,100%,0);
@@ -583,14 +584,14 @@ figure.effect-zoe figcaption {
 }
 
 figure.effect-zoe p.icon-links a {
-	color: #3c4a50;
+	color: #ff120f;
 	font-size: 1.4em;
 	padding: 5px 10px;
 }
 
 figure.effect-zoe:hover p.icon-links a:hover,
 figure.effect-zoe:hover p.icon-links a:focus {
-	color: #09F;
+	color: #ff120f;
 }
 
 figure.effect-zoe p.description {
@@ -674,7 +675,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 .tm-service-description {
     font-size: 1.1rem;
-    color: #09F;
+    color: #ff120f;
     text-align: center;
     margin-top: 20px;
 }
@@ -688,7 +689,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
     text-align: center;
     min-width: 125px;
     margin-right: 15px;
-    color: #09F;
+    color: #ff120f;
 }
 
 .tm-approach-row {
@@ -747,7 +748,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 .tm-btn-primary {
     color: white;
-    background-color: #C99;
+    background-color: #ff120f;
     font-size: 1.2rem;
     padding: 12px 30px;
 }
@@ -755,7 +756,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 .tm-btn-primary:hover,
 .tm-btn-primary:focus {
     color: white;
-    background-color: #a64b4b;
+    background-color: #ff121f;
 }
 
 .tm-link { color: #666; }
